@@ -1,0 +1,1 @@
+{"name":"@guardian/guardian","private":true,"type":"module","dependencies":{"@guardian/core":"*","@guardian/near":"*","near-api-js":"^7.3.1","dotenv":"^16.6.0"}}

@@ -1,0 +1,11 @@
+.address-comparison { display: grid; gap: 0; min-width: 0; }
+.comparison-row { display: grid; grid-template-columns: minmax(112px, .6fr) minmax(0, 1fr) auto; align-items: center; gap: 12px; min-height: 53px; border-bottom: 1px solid #48514b; }
+.comparison-row>span { color: #abb9ad; font-size: 11px; }
+.compared-address { color: #f0f5ed; font: 600 14px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; overflow-wrap: anywhere; }
+.compared-address mark { padding: 2px 1px; border-radius: 3px; background: #ad4844; color: #fff6ee; }
+.comparison-row button { min-height: 44px; padding: 5px 8px; border: 1px solid #657268; border-radius: 6px; background: transparent; color: #e1eae0; font-size: 11px; }
+.comparison-outcome { display: flex; align-items: center; gap: 9px; margin-top: 16px; color: #ffd0ca; font-size: 12px; font-weight: 680; line-height: 1.5; }
+.comparison-outcome span { display: grid; place-items: center; width: 22px; height: 22px; flex: 0 0 auto; border-radius: 50%; background: #7c3d39; color: #fff3ed; }
+.address-comparison.matches .comparison-outcome { color: #cce9d1; }
+.address-comparison.matches .comparison-outcome span { background: #346649; }
+@media (max-width: 650px) { .comparison-row { grid-template-columns: minmax(0, 1fr) auto; gap: 3px 9px; padding: 9px 0; } .comparison-row>span { grid-column: 1 / -1; } .compared-address { font-size: 12px; } }

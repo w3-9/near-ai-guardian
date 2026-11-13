@@ -1,0 +1,29 @@
+{
+  "name": "near-guardian",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev-local.mjs",
+    "dev:web": "npm run dev -w @guardian/web",
+    "demo": "node scripts/dev-local.mjs",
+    "demo:readonly": "npm run dev:web",
+    "build": "npm run build -w @guardian/web",
+    "build:public": "VITE_PUBLIC_DEMO=1 npm run build",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "guardian": "node --import tsx apps/guardian/src/cli.ts"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.0.0",
+    "jsdom": "^29.0.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.5"
+  }
+}

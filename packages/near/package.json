@@ -1,0 +1,1 @@
+{"name":"@guardian/near","private":true,"type":"module","exports":"./src/index.ts","dependencies":{"@guardian/core":"*","near-api-js":"^7.3.1"}}

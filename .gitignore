@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+.guardian-identity.local*
+.DS_Store
+*.tsbuildinfo
+coverage/
+.guardian-intents.json
+.guardian-confirmations.json
+guardian-policy.json

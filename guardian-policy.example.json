@@ -1,0 +1,8 @@
+{
+  "mode": "strict",
+  "allowedReceivers": [],
+  "allowedContracts": {},
+  "maxTransferNear": "1",
+  "maxDailyNear": "5",
+  "requireIntentMatch": true
+}
