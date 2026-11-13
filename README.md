@@ -4,6 +4,14 @@ AI Guardian is a self-hosted co-signer for a 2-of-2 NEAR Testnet multisig. A pro
 
 Today, the web app and Guardian run together on the user's machine. The Owner key stays in the wallet; a separate Guardian key stays in a local, ignored file. A future hosted version could run an isolated Guardian for each multisig, but this repository only implements the self-hosted flow.
 
+## Demo
+
+[View the demo](https://YOUR-VERCEL-URL/demo) · [Explore the read-only workspace](https://YOUR-VERCEL-URL/app/demo/proposals/0)
+
+The hosted preview uses illustrative data. It lets you explore the product without a wallet, but it does not run AI reviews or cast Guardian votes.
+
+The full Testnet workflow is self-hosted. We do not expose a shared AI API key or Guardian signer through the public site. To try the live flow, clone this repository, configure your own API key in `.env.local`, and run `npm run dev`.
+
 ## How to start
 
 You need Node.js 22.22.2 or newer, npm, a Meteor or Nightly wallet on NEAR Testnet, and Testnet NEAR for setup and proposals.
