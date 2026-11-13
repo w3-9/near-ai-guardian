@@ -6,7 +6,7 @@ Today, the web app and Guardian run together on the user's machine. The Owner ke
 
 ## Demo
 
-[View the demo](https://YOUR-VERCEL-URL/demo) · [Explore the read-only workspace](https://YOUR-VERCEL-URL/app/demo/proposals/0)
+[View the demo](https://near-ai-guardian-web.vercel.app/) · [Explore the read-only workspace](https://near-ai-guardian-web.vercel.app/app/demo/proposals/0)
 
 The hosted preview uses illustrative data. It lets you explore the product without a wallet, but it does not run AI reviews or cast Guardian votes.
 
